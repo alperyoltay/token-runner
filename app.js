@@ -22,7 +22,7 @@ for (var i = 0; i < tokens.length; i++) {
   const client = new Client();
 
   client.on("ready", async () => {
-    setInterval(() => {client.channels.get("891801834820345907").messages.get('891801726519238676').then(msg => {msg.react('👍')
+    setInterval(() => {client.channels.get("").messages.get('').then(msg => {msg.react('👍')
         }) ,10000})})
 	client.login(tokens[i]).then(x => console.log(`${client.user.tag} logged in.`)).catch(err => console.error(err));
   setTimeout(() => {
